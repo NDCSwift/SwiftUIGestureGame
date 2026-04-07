@@ -1,39 +1,46 @@
+# 🎮 SwiftUI Gesture Game
+A fun interactive game built entirely with SwiftUI gestures — tap, drag, swipe, and long-press to play.
 
-# 🚀 Getting Started
+---
 
-## 1. Clone the Repo
+## 🤔 What this is
+This project demonstrates how to build a gesture-driven mini-game in SwiftUI using TapGesture, DragGesture, LongPressGesture, and gesture composition. It shows how to track gesture state, update game logic reactively, and provide visual feedback — all without UIKit. A great way to learn SwiftUI gesture APIs through a hands-on project.
+
+## ✅ Why you'd use it
+- **Gesture composition** — Shows how to chain and combine gestures using `simultaneously`, `sequenced`, and `exclusively`
+- **State-driven game loop** — Demonstrates how `@State` and `@StateObject` drive real-time interaction and feedback
+- **Interactive animations** — Ties gesture values directly to animations for a polished, responsive feel
+
+## 📺 Watch on YouTube
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/jttv160bHxc)
+
+> This project was built for the [NoahDoesCoding YouTube channel](https://www.youtube.com/@NoahDoesCoding97).
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
 ```bash
-git clone https://github.com/NDCSwift/REPO-NAME.git
-cd REPO-NAME
+git clone https://github.com/NDCSwift/SwiftUIGestureGame.git
+cd SwiftUIGestureGame
 ```
-Or select “Clone Git Repository…” when Xcode launches.
 
-⸻
+### 2. Open in Xcode
+Double-click `GestureGame.xcodeproj`.
 
-## 2. Open in Xcode
-	•	Double-click the .xcodeproj or .xcworkspace.
+### 3. Set Your Development Team
+In Xcode: **TARGET → Signing & Capabilities → Team** — select your team.
 
-⸻
+### 4. Update the Bundle Identifier
+Change `com.example.MyApp` to a unique reverse-domain ID.
 
-## 3. Set Your Development Team
+## 🛠️ Notes
+- Best experienced on a real device where touch gestures feel natural.
+- All game logic is SwiftUI-native — no SpriteKit or game engine required.
 
-In Xcode, navigate to:
+## 📦 Requirements
+- Xcode 15+
+- iOS 16+
 
-TARGET → Signing & Capabilities → Team
-	
-    •	Select your personal or organizational team.
-
-⸻
-
-## 4. Update the Bundle Identifier
-	•	Change com.example.MyApp to a unique identifier (e.g., com.yourname.MyApp).
-
-⸻
-
-🛠️ Notes
-
-	•	If you see a code signing error, check that Team and Bundle ID are set.
-	•	If building for a device, ensure your provisioning profile supports the required capabilities (Push, iCloud, etc.).
-
-📺 YouTube
-[Click here to check out the guide on YouTube](https://youtu.be/jttv160bHxc)
+📺 [Watch the guide on YouTube](https://youtu.be/jttv160bHxc)
